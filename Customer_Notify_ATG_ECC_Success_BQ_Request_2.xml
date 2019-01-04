@@ -1,0 +1,71 @@
+<soapenv:Envelope
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <SynchroniseSalesOrder languageCode="en" releaseID="1.0"
+            xmlns="http://www.kingfisher.com/oagis/9"
+            xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <oa:ApplicationArea>
+                <oa:Sender>
+                    <oa:LogicalID>SAP</oa:LogicalID>
+                </oa:Sender>
+                <oa:Receiver>
+                    <oa:ID>BQ10</oa:ID>
+                </oa:Receiver>
+                <oa:CreationDateTime>2018-06-27T11:57:29.000+01:00</oa:CreationDateTime>
+                <oa:BODID>0000000257154355</oa:BODID>
+            </oa:ApplicationArea>
+            <DataArea>
+                <Synchronise>
+                    <oa:ActionCriteria>
+                        <oa:ActionExpression actionCode="Change" expressionLanguage="text">Status</oa:ActionExpression>
+                    </oa:ActionCriteria>
+                </Synchronise>
+                <SalesOrder>
+                    <SalesOrderHeader>
+                        <oa:DocumentID>
+                            <oa:ID schemeName="EXTERNAL">1000014578</oa:ID>
+                        </oa:DocumentID>
+                    </SalesOrderHeader>
+                    <SalesOrderLine>
+                        <oa:LineNumber>1</oa:LineNumber>
+                        <oa:Status>
+                            <oa:Code>SO_CREATED</oa:Code>
+                            <oa:Description>Sales Order Created</oa:Description>
+                            <oa:Type listName="BUSINESS" name="synchroniseSalesOrder-Status">SUCCESS</oa:Type>
+                        </oa:Status>
+                        <oa:Quantity unitCode="EA">5.000</oa:Quantity>
+                        <oa:RequiredDeliveryDateTime>2018-07-11</oa:RequiredDeliveryDateTime>
+                    </SalesOrderLine>
+                    <SalesOrderLine>
+                        <oa:LineNumber>2</oa:LineNumber>
+                        <oa:DocumentReference>
+                            <oa:LineNumber>1</oa:LineNumber>
+                        </oa:DocumentReference>
+                        <oa:Status>
+                            <oa:Code>SO_CREATED</oa:Code>
+                            <oa:Description>Sales Order Created</oa:Description>
+                            <oa:Type listName="BUSINESS" name="synchroniseSalesOrder-Status">SUCCESS</oa:Type>
+                        </oa:Status>
+                        <oa:Quantity unitCode="EA">5.000</oa:Quantity>
+                        <oa:RequiredDeliveryDateTime>2018-07-11</oa:RequiredDeliveryDateTime>
+                    </SalesOrderLine>
+                    <SalesOrderLine>
+                        <oa:LineNumber>3</oa:LineNumber>
+                        <oa:DocumentReference>
+                            <oa:LineNumber>1</oa:LineNumber>
+                        </oa:DocumentReference>
+                        <oa:Status>
+                            <oa:Code>SO_CREATED</oa:Code>
+                            <oa:Description>Sales Order Created</oa:Description>
+                            <oa:Type listName="BUSINESS" name="synchroniseSalesOrder-Status">SUCCESS</oa:Type>
+                        </oa:Status>
+                        <oa:Quantity unitCode="EA">5.000</oa:Quantity>
+                        <oa:RequiredDeliveryDateTime>2018-07-11</oa:RequiredDeliveryDateTime>
+                    </SalesOrderLine>
+                </SalesOrder>
+            </DataArea>
+        </SynchroniseSalesOrder>
+    </soapenv:Body>
+</soapenv:Envelope>
