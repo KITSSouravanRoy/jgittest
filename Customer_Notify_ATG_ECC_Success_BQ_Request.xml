@@ -1,0 +1,422 @@
+<soapenv:Envelope
+    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns:ProcessSalesOrder languageCode="en" releaseID="1.0"
+            xmlns:ns="http://www.kingfisher.com/oagis/9"
+            xmlns:ns1="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns1:ApplicationArea>
+                <ns1:Sender>
+                    <ns1:LogicalID>ATG</ns1:LogicalID>
+                    <ns1:ComponentID>10.128.13.77</ns1:ComponentID>
+                </ns1:Sender>
+                <ns1:CreationDateTime>2018-10-23T11:06:22.279+01:00</ns1:CreationDateTime>
+                <ns1:BODID>53754319182279</ns1:BODID>
+            </ns1:ApplicationArea>
+            <ns:DataArea>
+                <ns1:Process>
+                    <ns1:ActionCriteria>
+                        <ns1:ActionExpression actionCode="Add" expressionLanguage="xpath">/ProcessSalesOrder/DataArea/SalesOrder</ns1:ActionExpression>
+                    </ns1:ActionCriteria>
+                </ns1:Process>
+                <ns:SalesOrder>
+                    <ns:SalesOrderHeader>
+                        <ns1:DocumentID>
+                            <ns1:ID schemeName="EXTERNAL">4000931952</ns1:ID>
+                        </ns1:DocumentID>
+                        <ns1:AlternateDocumentID>
+                            <ns1:ID schemeName="ATG">ret10236652</ns1:ID>
+                        </ns1:AlternateDocumentID>
+                        <ns1:DocumentDateTime>2018-10-23T11:05:47.064+01:00</ns1:DocumentDateTime>
+                        <ns1:Type>Return</ns1:Type>
+                        <ns:SalesOrderReference>
+                            <ns1:DocumentID>
+                                <ns1:ID schemeName="ORIGINAL">1003050274</ns1:ID>
+                            </ns1:DocumentID>
+                            <ns1:SourceID schemeName="ORIGINAL">1236</ns1:SourceID>
+                            <ns:NearestStoreID>1330</ns:NearestStoreID>
+                            <ns1:Type>Standard</ns1:Type>
+                        </ns:SalesOrderReference>
+                        <ns1:SourceID>1162</ns1:SourceID>
+                        <ns:CustomerParty>
+                            <ns1:ID schemeID="1" schemeName="ATG">MIG_2303556674</ns1:ID>
+                            <ns1:ID schemeID="2" schemeName="SAP">0076583063</ns1:ID>
+                            <ns:Login>jforester1@btinternet.com</ns:Login>
+                            <ns1:Title>Ms</ns1:Title>
+                            <ns1:GivenName>Jacqui</ns1:GivenName>
+                            <ns1:FamilyName>Forester</ns1:FamilyName>
+                            <ns1:GenderCode/>
+                            <ns1:LanguageCode>en</ns1:LanguageCode>
+                            <ns:Contact>
+                                <ns1:TelephoneCommunication>
+                                    <ns1:UseCode>DAY</ns1:UseCode>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">DayToDay</ns1:Description>
+                                    </ns1:Preference>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">OrderUpdates</ns1:Description>
+                                    </ns1:Preference>
+                                </ns1:TelephoneCommunication>
+                                <ns1:TelephoneCommunication>
+                                    <ns1:UseCode>EVE</ns1:UseCode>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">DayToDay</ns1:Description>
+                                    </ns1:Preference>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">OrderUpdates</ns1:Description>
+                                    </ns1:Preference>
+                                </ns1:TelephoneCommunication>
+                                <ns1:MobileTelephoneCommunication>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">DayToDay</ns1:Description>
+                                    </ns1:Preference>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">OrderUpdates</ns1:Description>
+                                    </ns1:Preference>
+                                </ns1:MobileTelephoneCommunication>
+                                <ns:SMSTelephoneCommunication>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">DayToDay</ns1:Description>
+                                    </ns1:Preference>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">OrderUpdates</ns1:Description>
+                                    </ns1:Preference>
+                                </ns:SMSTelephoneCommunication>
+                                <ns1:EMailAddressCommunication>
+                                    <ns1:EMailAddressID>jforester1@btinternet.com</ns1:EMailAddressID>
+                                    <ns1:HTMLPreferredIndicator>false</ns1:HTMLPreferredIndicator>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">OrderUpdates</ns1:Description>
+                                    </ns1:Preference>
+                                    <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="Usage">DayToDay</ns1:Description>
+                                    </ns1:Preference>
+                                </ns1:EMailAddressCommunication>
+                                <ns:Location>
+                                    <ns1:Address>
+                                    <ns1:BuildingNumber>4</ns1:BuildingNumber>
+                                    <ns1:BuildingName/>
+                                    <ns1:StreetName>Tudor Close</ns1:StreetName>
+                                    <ns1:CitySubDivisionName/>
+                                    <ns1:CityName>Chippenham</ns1:CityName>
+                                    <ns1:CountrySubDivisionCode>Wiltshire</ns1:CountrySubDivisionCode>
+                                    <ns1:CountryCode>GB</ns1:CountryCode>
+                                    <ns1:PostalCode>SN15 3UL</ns1:PostalCode>
+                                    </ns1:Address>
+                                    <ns:ManualKeyingIndicator>true</ns:ManualKeyingIndicator>
+                                </ns:Location>
+                                <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:Description type="BQ_Marketing_Consent"/>
+                                </ns1:Preference>
+                                <ns1:Preference>
+                                    <ns1:Indicator>false</ns1:Indicator>
+                                    <ns1:EffectiveTimePeriod>
+                                    <ns1:InclusiveIndicator>false</ns1:InclusiveIndicator>
+                                    <ns1:StartDateTime>2012-12-28T10:41:33.000Z</ns1:StartDateTime>
+                                    </ns1:EffectiveTimePeriod>
+                                    <ns1:Description type="New_Terms_And_Conditions"/>
+                                </ns1:Preference>
+                            </ns:Contact>
+                            <ns:Organisation>
+                                <ns1:Name>Escape Beauty</ns1:Name>
+                                <ns:OwnerIndicator>false</ns:OwnerIndicator>
+                            </ns:Organisation>
+                            <ns:SalesOrganisation>
+                                <ns1:ID>BQ-UK</ns1:ID>
+                            </ns:SalesOrganisation>
+                            <ns1:Type name="Retail">2</ns1:Type>
+                            <ns1:GroupType name="Retail">3</ns1:GroupType>
+                            <ns1:Status>
+                                <ns1:Code name="Uninitialized">2</ns1:Code>
+                                <ns1:Type name="Online">1</ns1:Type>
+                            </ns1:Status>
+                            <ns1:Status>
+                                <ns1:Code name="UnBlocked">3</ns1:Code>
+                                <ns1:Type name="Order">2</ns1:Type>
+                            </ns1:Status>
+                            <ns:BrandChannel>
+                                <ns:Brand>
+                                    <ns1:Code name="B and Q">BQ</ns1:Code>
+                                </ns:Brand>
+                                <ns:Channel>
+                                    <ns1:Code name="Web">WEB</ns1:Code>
+                                </ns:Channel>
+                            </ns:BrandChannel>
+                            <ns:Payment>
+                                <ns:PaymentCard>
+                                    <ns1:Type>Visa Debit</ns1:Type>
+                                    <ns1:Number>465860******3017</ns1:Number>
+                                    <ns1:NickName>0</ns1:NickName>
+                                    <ns1:Expiration>
+                                    <ns1:Month>02</ns1:Month>
+                                    <ns1:Year>2021</ns1:Year>
+                                    </ns1:Expiration>
+                                    <ns:PaymentAuthorization>
+                                    <ns:Token xsi:nil="true"/>
+                                    <ns:HostAuthorizationIndicator>false</ns:HostAuthorizationIndicator>
+                                    <ns:OnlineAuthorizationIndicator>false</ns:OnlineAuthorizationIndicator>
+                                    </ns:PaymentAuthorization>
+                                    <ns:ICCIndicator>false</ns:ICCIndicator>
+                                    <ns1:BillingAddress>
+                                    <ns1:BuildingNumber/>
+                                    <ns1:BuildingName/>
+                                    <ns1:StreetName/>
+                                    <ns1:CitySubDivisionName/>
+                                    <ns1:CityName/>
+                                    <ns1:CountrySubDivisionCode/>
+                                    <ns1:CountryCode/>
+                                    <ns1:PostalCode/>
+                                    </ns1:BillingAddress>
+                                    <ns:CardHolderPresentIndicator>false</ns:CardHolderPresentIndicator>
+                                </ns:PaymentCard>
+                            </ns:Payment>
+                            <ns:PriceSegmentGroup name="Default">ALL</ns:PriceSegmentGroup>
+                            <ns:PreferredStoreID/>
+                            <ns:OrderReferenceRequiredIndicator>false</ns:OrderReferenceRequiredIndicator>
+                            <ns:SensitiveIndicator>false</ns:SensitiveIndicator>
+                            <ns:VIPIndicator>false</ns:VIPIndicator>
+                            <ns:UpdateStatus>
+                                <ns1:Code>CHANGED</ns1:Code>
+                            </ns:UpdateStatus>
+                            <ns:Token>b5762e568f2074fedc857980ed968473808dd1231c6ab9a4d750109dd566cc3e</ns:Token>
+                            <ns:Transactional>true</ns:Transactional>
+                        </ns:CustomerParty>
+                        <ns:ShipToParty>
+                            <ns1:Title>Ms</ns1:Title>
+                            <ns1:GivenName>Jacqui</ns1:GivenName>
+                            <ns1:FamilyName>Forester</ns1:FamilyName>
+                            <ns:Contact>
+                                <ns1:Name>Jacqui Forester</ns1:Name>
+                                <ns1:TelephoneCommunication>
+                                    <ns1:UseCode>PRIMARY</ns1:UseCode>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                </ns1:TelephoneCommunication>
+                                <ns1:TelephoneCommunication>
+                                    <ns1:UseCode>PRIMARY</ns1:UseCode>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                </ns1:TelephoneCommunication>
+                                <ns1:MobileTelephoneCommunication>
+                                    <ns1:UseCode>PRIMARY</ns1:UseCode>
+                                    <ns1:FormattedNumber>07725534964</ns1:FormattedNumber>
+                                </ns1:MobileTelephoneCommunication>
+                                <ns1:EMailAddressCommunication>
+                                    <ns1:EMailAddressID>jforester1@btinternet.com</ns1:EMailAddressID>
+                                </ns1:EMailAddressCommunication>
+                                <ns:Location>
+                                    <ns1:Address type="CUSTOMER">
+                                    <ns1:BuildingNumber>4</ns1:BuildingNumber>
+                                    <ns1:StreetName>Tudor Close</ns1:StreetName>
+                                    <ns1:CityName>Chippenham</ns1:CityName>
+                                    <ns1:CountrySubDivisionCode>Wiltshire</ns1:CountrySubDivisionCode>
+                                    <ns1:CountryCode>GB</ns1:CountryCode>
+                                    <ns1:PostalCode>SN15 3UL</ns1:PostalCode>
+                                    </ns1:Address>
+                                </ns:Location>
+                            </ns:Contact>
+                        </ns:ShipToParty>
+                        <ns:BillToParty>
+                            <ns1:Title>Ms</ns1:Title>
+                            <ns1:GivenName>Jacqui</ns1:GivenName>
+                            <ns1:FamilyName>Forester</ns1:FamilyName>
+                            <ns:Contact>
+                                <ns:Location>
+                                    <ns1:Address>
+                                    <ns1:BuildingNumber>4</ns1:BuildingNumber>
+                                    <ns1:StreetName>Tudor Close</ns1:StreetName>
+                                    <ns1:CityName>Chippenham</ns1:CityName>
+                                    <ns1:CountrySubDivisionCode>Wiltshire</ns1:CountrySubDivisionCode>
+                                    <ns1:CountryCode>GB</ns1:CountryCode>
+                                    <ns1:PostalCode>SN15 3UL</ns1:PostalCode>
+                                    </ns1:Address>
+                                </ns:Location>
+                            </ns:Contact>
+                        </ns:BillToParty>
+                        <ns1:TotalAmount currencyID="GBP">45.0</ns1:TotalAmount>
+                        <ns:PriceSegmentGroup>ALL</ns:PriceSegmentGroup>
+                        <ns:InstallationManagedOrderIndicator>false</ns:InstallationManagedOrderIndicator>
+                        <ns:Payment id="Visa Debit">
+                            <ns:PaymentCard>
+                                <ns1:Type>VISA</ns1:Type>
+                                <ns1:Number>465901******8023</ns1:Number>
+                                <ns1:NameOnAccount>Mrs J A Forester</ns1:NameOnAccount>
+                                <ns1:Expiration>
+                                    <ns1:Month>03</ns1:Month>
+                                    <ns1:Year>2021</ns1:Year>
+                                </ns1:Expiration>
+                                <ns:PaymentAuthorization>
+                                    <ns1:ID schemeName="CAV">AAACBYd4lAAAAFI4QniUAAAAAAA=</ns1:ID>
+                                    <ns1:ResponseCode>REFUND</ns1:ResponseCode>
+                                    <ns:AuthorizationDateTime>2018-10-11T15:52:51.000+01:00</ns:AuthorizationDateTime>
+                                    <ns1:Amount currencyID="GBP">45.0</ns1:Amount>
+                                    <ns:Token>23818634721</ns:Token>
+                                    <ns1:TransactionID>7846631</ns1:TransactionID>
+                                    <ns:ProtocolName>three_d_secure:ssl</ns:ProtocolName>
+                                    <ns:ElectronicCommerceIndicatorID>05</ns:ElectronicCommerceIndicatorID>
+                                    <ns:MDStatusCode>Y</ns:MDStatusCode>
+                                    <ns:CV2CheckResponseCode>2</ns:CV2CheckResponseCode>
+                                    <ns:PCCheckResponseCode>2</ns:PCCheckResponseCode>
+                                    <ns:ADDCheckResponseCode>2</ns:ADDCheckResponseCode>
+                                    <ns:OverallResponseCode>ACCEPT</ns:OverallResponseCode>
+                                </ns:PaymentAuthorization>
+                                <ns:Referral>
+                                    <ns1:TransactionID>140025667861</ns1:TransactionID>
+                                    <ns1:StatusCode>ACCEPT</ns1:StatusCode>
+                                    <ns1:ResponseCode>0100</ns1:ResponseCode>
+                                </ns:Referral>
+                                <ns:CleartextNumber>465901******8023</ns:CleartextNumber>
+                            </ns:PaymentCard>
+                            <ns1:Amount currencyID="GBP">45.0</ns1:Amount>
+                            <ns:TransactionType>Refund</ns:TransactionType>
+                        </ns:Payment>
+                        <ns:DeliveryAccess>
+                            <ns1:Indicator>true</ns1:Indicator>
+                            <ns1:Description>Delivery_Vehicle_Parking_Question</ns1:Description>
+                        </ns:DeliveryAccess>
+                        <ns:DeliveryAccess>
+                            <ns1:Indicator>true</ns1:Indicator>
+                            <ns1:Description>Double_Decker_Bus_Question</ns1:Description>
+                        </ns:DeliveryAccess>
+                        <ns:DeliveryAccess>
+                            <ns1:Indicator>false</ns1:Indicator>
+                            <ns1:Description>Entrance_Stairs_Present_Question</ns1:Description>
+                        </ns:DeliveryAccess>
+                        <ns:BrandChannel>
+                            <ns:Brand>
+                                <ns1:Code>BQ</ns1:Code>
+                            </ns:Brand>
+                            <ns:Channel>
+                                <ns1:Code>CCC</ns1:Code>
+                            </ns:Channel>
+                        </ns:BrandChannel>
+                        <ns:RefundIndicator>true</ns:RefundIndicator>
+                        <ns:SettlementRequiredIndicator>false</ns:SettlementRequiredIndicator>
+                        <ns1:UserAccount>
+                            <ns1:AccountID>mandec01</ns1:AccountID>
+                            <ns1:AccountType>ContactCentre</ns1:AccountType>
+                        </ns1:UserAccount>
+                    </ns:SalesOrderHeader>
+                    <ns:SalesOrderLine>
+                        <ns1:LineNumber schemeName="ATG">1</ns1:LineNumber>
+                        <ns1:Status>
+                            <ns1:Code>0000</ns1:Code>
+                            <ns1:ReasonCode>NA</ns1:ReasonCode>
+                            <ns1:Reason>NA</ns1:Reason>
+                            <ns1:Type listName="TECHNICAL" name="ProcessFulfilmentSource">SUCCESS</ns1:Type>
+                        </ns1:Status>
+                        <ns:SalesOrderReference>
+                            <ns1:LineNumber>1</ns1:LineNumber>
+                        </ns:SalesOrderReference>
+                        <ns:ProductItem>
+                            <ns1:ItemID>
+                                <ns1:ID>100572851</ns1:ID>
+                            </ns1:ItemID>
+                            <ns1:UPCID>5015772885477</ns1:UPCID>
+                            <ns1:UOMCode>EA</ns1:UOMCode>
+                            <ns:ShippingGroupCategoryCode>ZPDT</ns:ShippingGroupCategoryCode>
+                        </ns:ProductItem>
+                        <ns1:Quantity unitCode="EA">1</ns1:Quantity>
+                        <ns1:UnitPrice>
+                            <ns1:Amount currencyID="GBP">40.0</ns1:Amount>
+                            <ns1:PerQuantity>1</ns1:PerQuantity>
+                        </ns1:UnitPrice>
+                        <ns1:ExtendedAmount currencyID="GBP">40.00</ns1:ExtendedAmount>
+                        <ns1:TotalAmount currencyID="GBP">40.00</ns1:TotalAmount>
+                        <ns1:RequiredDeliveryDateTime>2018-10-24T11:06:22.389+01:00</ns1:RequiredDeliveryDateTime>
+                        <ns:Tax>
+                            <ns1:Type>V</ns1:Type>
+                            <ns1:Calculation>
+                                <ns1:RateNumeric>20.0</ns1:RateNumeric>
+                            </ns1:Calculation>
+                            <ns:ProductTaxClassificationCode>1</ns:ProductTaxClassificationCode>
+                        </ns:Tax>
+                        <ns1:PromisedShipDateTime>2018-10-25T06:00:00.022+01:00</ns1:PromisedShipDateTime>
+                        <ns:PromisedUpliftDateTime>2018-10-24T17:29:00.000+01:00</ns:PromisedUpliftDateTime>
+                        <ns:FulfilmentSiteID>D009</ns:FulfilmentSiteID>
+                        <ns:SalesOrderSchedule>
+                            <ns1:LineNumber>1</ns1:LineNumber>
+                        </ns:SalesOrderSchedule>
+                        <ns1:CategoryCodes>
+                            <ns1:Code listName="DERIVED">ZURD</ns1:Code>
+                        </ns1:CategoryCodes>
+                        <ns:DeliveryGroupCode>001</ns:DeliveryGroupCode>
+                        <ns:CreateByDateTime>2018-10-23T12:30:00.000+01:00</ns:CreateByDateTime>
+                        <ns:DeliveryType>UPLIFT</ns:DeliveryType>
+                        <ns:DeliveryPriorityCode>NORMAL</ns:DeliveryPriorityCode>
+                        <ns:RouteType listName="DELIVERYOPTION">PARCEL</ns:RouteType>
+                        <ns:RouteStop>
+                            <ns1:Type>ZU0001</ns1:Type>
+                            <ns:StopDetail>
+                                <ns1:BillOfLadingReference>
+                                    <ns1:Facility>
+                                    <ns1:IDs>
+                                    <ns1:ID>3111</ns1:ID>
+                                    </ns1:IDs>
+                                    </ns1:Facility>
+                                </ns1:BillOfLadingReference>
+                            </ns:StopDetail>
+                        </ns:RouteStop>
+                        <ns1:ActionCodes>
+                            <ns1:Code listName="Nil Return Vendor">05</ns1:Code>
+                        </ns1:ActionCodes>
+                        <ns1:Reason>04</ns1:Reason>
+                        <ns:FulfilmentSourceType>FC Return</ns:FulfilmentSourceType>
+                        <ns:PackageCount>1</ns:PackageCount>
+                        <ns:CarrierParty>
+                            <ns1:PartyIDs>
+                                <ns1:ID>3</ns1:ID>
+                            </ns1:PartyIDs>
+                        </ns:CarrierParty>
+                    </ns:SalesOrderLine>
+                    <ns:SalesOrderLine>
+                        <ns1:LineNumber schemeName="DELIVERY_CHARGE">9000</ns1:LineNumber>
+                        <ns:SalesOrderReference>
+                            <ns1:LineNumber>9000</ns1:LineNumber>
+                        </ns:SalesOrderReference>
+                        <ns:ProductItem>
+                            <ns1:ItemID>
+                                <ns1:ID>100119711</ns1:ID>
+                            </ns1:ItemID>
+                            <ns1:UPCID>0000003089224</ns1:UPCID>
+                            <ns1:UOMCode>EA</ns1:UOMCode>
+                            <ns:ShippingGroupCategoryCode>ZGIN</ns:ShippingGroupCategoryCode>
+                        </ns:ProductItem>
+                        <ns1:Quantity unitCode="EA">1</ns1:Quantity>
+                        <ns1:UnitPrice>
+                            <ns1:Amount currencyID="GBP">5.0</ns1:Amount>
+                            <ns1:PerQuantity>1</ns1:PerQuantity>
+                        </ns1:UnitPrice>
+                        <ns1:ExtendedAmount currencyID="GBP">5.0</ns1:ExtendedAmount>
+                        <ns1:TotalAmount currencyID="GBP">5.0</ns1:TotalAmount>
+                        <ns1:RequiredDeliveryDateTime>2018-10-23T11:06:22.393+01:00</ns1:RequiredDeliveryDateTime>
+                        <ns:SalesOrderSchedule>
+                            <ns1:LineNumber>1</ns1:LineNumber>
+                        </ns:SalesOrderSchedule>
+                        <ns1:CategoryCodes>
+                            <ns1:Code>ZSER</ns1:Code>
+                        </ns1:CategoryCodes>
+                        <ns:DeliveryGroupCode>001</ns:DeliveryGroupCode>
+                        <ns1:ActionCodes>
+                            <ns1:Code listName="Return">09</ns1:Code>
+                        </ns1:ActionCodes>
+                    </ns:SalesOrderLine>
+                </ns:SalesOrder>
+            </ns:DataArea>
+        </ns:ProcessSalesOrder>
+    </soapenv:Body>
+</soapenv:Envelope>
