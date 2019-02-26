@@ -1,0 +1,574 @@
+<ChangeSalesOrder languageCode="en" releaseID="1.0"
+    xmlns="http://www.kingfisher.com/oagis/9" xmlns:ns="http://www.openapplications.org/oagis/9">
+    <ns:ApplicationArea>
+        <ns:Sender>
+            <ns:LogicalID>ATG</ns:LogicalID>
+            <ns:ComponentID>10.128.10.148</ns:ComponentID>
+        </ns:Sender>
+        <ns:CreationDateTime>2016-10-26T13:35:57.897+01:00</ns:CreationDateTime>
+        <ns:BODID>62324615357909</ns:BODID>
+    </ns:ApplicationArea>
+    <DataArea>
+        <ns:Change>
+            <ns:ActionCriteria>
+                <ns:ActionExpression actionCode="Change">ChangeSalesOrder/DataArea/SalesOrder/SalesOrderLine[1]/ns:Quantity[1]</ns:ActionExpression>
+            </ns:ActionCriteria>
+        </ns:Change>
+        <SalesOrder type="Previous">
+            <SalesOrderHeader>
+                <ns:DocumentID>
+                    <ns:ID schemeName="EXTERNAL">0020009708</ns:ID>
+                </ns:DocumentID>
+                <ns:AlternateDocumentID>
+                    <ns:ID schemeName="ATG">o19002014</ns:ID>
+                </ns:AlternateDocumentID>
+                <ns:DocumentDateTime>2016-09-29T10:54:21.280+01:00</ns:DocumentDateTime>
+                <ns:Type>Standard</ns:Type>
+                <ns:SourceID>1515</ns:SourceID>
+                <CustomerParty>
+                    <ns:ID schemeID="1" schemeName="ATG">78210025</ns:ID>
+                    <ns:ID schemeID="2" schemeName="SAP">0060117241</ns:ID>
+                    <Login>castocust@tcs.com</Login>
+                    <ns:Title>M.</ns:Title>
+                    <ns:GivenName>Casto</ns:GivenName>
+                    <ns:FamilyName>casto</ns:FamilyName>
+                    <ns:GenderCode/>
+                    <ns:LanguageCode>en</ns:LanguageCode>
+                    <Contact>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>DAY</ns:UseCode>
+                            <ns:FormattedNumber>072992929222</ns:FormattedNumber>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                        </ns:TelephoneCommunication>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>EVE</ns:UseCode>
+                            <ns:FormattedNumber>072992929222</ns:FormattedNumber>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                        </ns:TelephoneCommunication>
+                        <ns:EMailAddressCommunication>
+                            <ns:EMailAddressID>castocust@tcs.com</ns:EMailAddressID>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                        </ns:EMailAddressCommunication>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                            <ManualKeyingIndicator>true</ManualKeyingIndicator>
+                        </Location>
+                        <ns:Preference>
+                            <ns:Indicator>false</ns:Indicator>
+                            <ns:Description type="BQ_Marketing_Consent"/>
+                        </ns:Preference>
+                    </Contact>
+                    <Organisation>
+                        <ns:Name/>
+                        <OwnerIndicator>false</OwnerIndicator>
+                    </Organisation>
+                    <SalesOrganisation>
+                        <ns:ID>CA-FR</ns:ID>
+                    </SalesOrganisation>
+                    <ns:Type name="Retail">2</ns:Type>
+                    <ns:GroupType name="Retail">3</ns:GroupType>
+                    <ns:Status>
+                        <ns:Code name="Initialized">1</ns:Code>
+                        <ns:Type name="Online">1</ns:Type>
+                    </ns:Status>
+                    <ns:Status>
+                        <ns:Code name="UnBlocked">3</ns:Code>
+                        <ns:Type name="Order">2</ns:Type>
+                    </ns:Status>
+                    <BrandChannel>
+                        <Brand>
+                            <ns:Code name="B and Q">CAFR</ns:Code>
+                        </Brand>
+                        <Channel>
+                            <ns:Code name="Web">WEB</ns:Code>
+                        </Channel>
+                    </BrandChannel>
+                    <PriceSegmentGroup name="">WH</PriceSegmentGroup>
+                    <PreferredStoreID/>
+                    <OrderReferenceRequiredIndicator>false</OrderReferenceRequiredIndicator>
+                    <SensitiveIndicator>false</SensitiveIndicator>
+                    <VIPIndicator>false</VIPIndicator>
+                    <DiscountCard>
+                        <ns:Type>BQMC</ns:Type>
+                        <ns:Number>6356669500000046</ns:Number>
+                    </DiscountCard>
+                    <Token>37a0d4a2595a3b1b6181ec7e2ae0cc11d61b0b79030e142df70fe43bd472d7dd</Token>
+                    <Transactional>true</Transactional>
+                </CustomerParty>
+                <ShipToParty>
+                    <ns:Title>Miss</ns:Title>
+                    <ns:GivenName>sdasd</ns:GivenName>
+                    <ns:FamilyName>sads</ns:FamilyName>
+                    <Contact>
+                        <ns:Name>Pamale1 Banerjee1</ns:Name>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:TelephoneCommunication>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:TelephoneCommunication>
+                        <ns:MobileTelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:MobileTelephoneCommunication>
+                        <ns:EMailAddressCommunication>
+                            <ns:EMailAddressID>pamale.banerjee@kingfisher.com</ns:EMailAddressID>
+                        </ns:EMailAddressCommunication>
+                        <Location>
+                            <ns:Address type="CUSTOMER">
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </ShipToParty>
+                <CollectionParty>
+                    <Contact>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </CollectionParty>
+                <BillToParty>
+                    <ns:Title>Mr</ns:Title>
+                    <ns:GivenName>Nischal</ns:GivenName>
+                    <ns:FamilyName>Pradhan</ns:FamilyName>
+                    <Contact>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </BillToParty>
+                <ns:TotalAmount currencyID="EUR">50.0</ns:TotalAmount>
+                <PriceSegmentGroup>ALL</PriceSegmentGroup>
+                <InstallationManagedOrderIndicator>false</InstallationManagedOrderIndicator>
+                <ns:Charge>
+                    <ns:Type name="Delivery">DEL</ns:Type>
+                    <ns:BasisAmount currencyID="EUR">0.0</ns:BasisAmount>
+                </ns:Charge>
+                <Payment id="pg42510020">
+                    <ns:Amount currencyID="EUR">50.0</ns:Amount>
+                    <ns:Status>
+                        <ns:Code>PENDING_IN_STORE</ns:Code>
+                    </ns:Status>
+                </Payment>
+                <DeliveryAccess>
+                    <ns:Indicator>true</ns:Indicator>
+                    <ns:Description>Delivery_Vehicle_Parking_Question</ns:Description>
+                </DeliveryAccess>
+                <DeliveryAccess>
+                    <ns:Indicator>true</ns:Indicator>
+                    <ns:Description>Double_Decker_Bus_Question</ns:Description>
+                </DeliveryAccess>
+                <DeliveryAccess>
+                    <ns:Indicator>false</ns:Indicator>
+                    <ns:Description>Entrance_Stairs_Present_Question</ns:Description>
+                </DeliveryAccess>
+                <BrandChannel>
+                    <Brand>
+                        <ns:Code>CAFR</ns:Code>
+                    </Brand>
+                    <Channel>
+                        <ns:Code>WEB</ns:Code>
+                    </Channel>
+                </BrandChannel>
+                <NearestStoreID>1515</NearestStoreID>
+                <SettlementRequiredIndicator>false</SettlementRequiredIndicator>
+                <ns:UserAccount>
+                    <ns:AccountID>service</ns:AccountID>
+                    <ns:AccountType>Store</ns:AccountType>
+                </ns:UserAccount>
+            </SalesOrderHeader>
+            <SalesOrderLine>
+                <ns:LineNumber schemeName="ATG">1</ns:LineNumber>
+                <ns:Status>
+                    <ns:Code>0000</ns:Code>
+                    <ns:Type listName="TECHNICAL" name="ProcessFulfilmentSource">SUCCESS</ns:Type>
+                </ns:Status>
+                <ProductItem>
+                    <ns:ItemID>
+                        <ns:ID>100000903</ns:ID>
+                    </ns:ItemID>
+                    <ns:UPCID>5055149924620</ns:UPCID>
+                    <ns:UOMCode>EA</ns:UOMCode>
+                    <ShippingGroupCategoryCode>ZBFC</ShippingGroupCategoryCode>
+                </ProductItem>
+                <ns:Quantity unitCode="EA">10</ns:Quantity>
+                <ns:UnitPrice>
+                    <ns:Amount currencyID="EUR">5.0</ns:Amount>
+                    <ns:PerQuantity>1</ns:PerQuantity>
+                </ns:UnitPrice>
+                <ns:ExtendedAmount currencyID="EUR">50.00</ns:ExtendedAmount>
+                <ns:TotalAmount currencyID="EUR">50.00</ns:TotalAmount>
+                <ns:RequiredDeliveryDateTime>2016-09-28T17:54:32.903+01:00</ns:RequiredDeliveryDateTime>
+                <Tax>
+                    <ns:Type>V</ns:Type>
+                    <ns:Calculation>
+                        <ns:RateNumeric>20.0</ns:RateNumeric>
+                    </ns:Calculation>
+                    <ProductTaxClassificationCode>1</ProductTaxClassificationCode>
+                </Tax>
+                <ns:PromisedShipDateTime>2016-10-05T17:54:32.948+01:00</ns:PromisedShipDateTime>
+                <ns:PromisedDeliveryDateTime>2016-10-05T17:54:32.948+01:00</ns:PromisedDeliveryDateTime>
+                <FulfilmentSiteID>D039</FulfilmentSiteID>
+                <SalesOrderSchedule>
+                    <ns:LineNumber>1</ns:LineNumber>
+                    <DeliveryBlockIndicator>false</DeliveryBlockIndicator>
+                </SalesOrderSchedule>
+                <ns:CategoryCodes>
+                    <ns:Code listName="DEFAULT">ZBFC</ns:Code>
+                </ns:CategoryCodes>
+                <DeliveryGroupCode>001</DeliveryGroupCode>
+                <CreateByDateTime>2016-09-27T17:54:32.948+01:00</CreateByDateTime>
+                <DeliveryType>COLLECTION</DeliveryType>
+                <DeliveryPriorityCode>NORMAL</DeliveryPriorityCode>
+                <RouteStop>
+                    <ns:Type>ZFC021</ns:Type>
+                    <StopDetail>
+                        <ns:BillOfLadingReference>
+                            <ns:Facility>
+                                <ns:IDs>
+                                    <ns:ID>9307</ns:ID>
+                                </ns:IDs>
+                            </ns:Facility>
+                        </ns:BillOfLadingReference>
+                    </StopDetail>
+                </RouteStop>
+                <ns:ActionCodes>
+                    <ns:Code listName="Standard">NA</ns:Code>
+                </ns:ActionCodes>
+                <ns:Reason>NA</ns:Reason>
+                <!--<ShippingMethodSource>FC</ShippingMethodSource>-->
+                <FulfilmentSourceType>FC</FulfilmentSourceType>
+            </SalesOrderLine>
+        </SalesOrder>
+        <SalesOrder type="Current">
+            <SalesOrderHeader>
+                <ns:DocumentID>
+                    <ns:ID schemeName="EXTERNAL">0020009708</ns:ID>
+                </ns:DocumentID>
+                <ns:AlternateDocumentID>
+                    <ns:ID schemeName="ATG">o19002014</ns:ID>
+                </ns:AlternateDocumentID>
+                <ns:DocumentDateTime>2016-09-29T10:54:21.280+01:00</ns:DocumentDateTime>
+                <ns:Type>Standard</ns:Type>
+                <ns:SourceID>1515</ns:SourceID>
+                <CustomerParty>
+                    <ns:ID schemeID="1" schemeName="ATG">78210025</ns:ID>
+                    <ns:ID schemeID="2" schemeName="SAP">0060117241</ns:ID>
+                    <Login>castocust@tcs.com</Login>
+                    <ns:Title>M.</ns:Title>
+                    <ns:GivenName>Casto</ns:GivenName>
+                    <ns:FamilyName>casto</ns:FamilyName>
+                    <ns:GenderCode/>
+                    <ns:LanguageCode>en</ns:LanguageCode>
+                    <Contact>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>DAY</ns:UseCode>
+                            <ns:FormattedNumber>072992929222</ns:FormattedNumber>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                        </ns:TelephoneCommunication>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>EVE</ns:UseCode>
+                            <ns:FormattedNumber>072992929222</ns:FormattedNumber>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                        </ns:TelephoneCommunication>
+                        <ns:EMailAddressCommunication>
+                            <ns:EMailAddressID>castocust@tcs.com</ns:EMailAddressID>
+                            <ns:Preference>
+                                <ns:Description type="Usage">OrderUpdates</ns:Description>
+                            </ns:Preference>
+                            <ns:Preference>
+                                <ns:Description type="Usage">DayToDay</ns:Description>
+                            </ns:Preference>
+                        </ns:EMailAddressCommunication>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                            <ManualKeyingIndicator>true</ManualKeyingIndicator>
+                        </Location>
+                        <ns:Preference>
+                            <ns:Indicator>false</ns:Indicator>
+                            <ns:Description type="BQ_Marketing_Consent"/>
+                        </ns:Preference>
+                    </Contact>
+                    <Organisation>
+                        <ns:Name/>
+                        <OwnerIndicator>false</OwnerIndicator>
+                    </Organisation>
+                    <SalesOrganisation>
+                        <ns:ID>CA-FR</ns:ID>
+                    </SalesOrganisation>
+                    <ns:Type name="Retail">2</ns:Type>
+                    <ns:GroupType name="Retail">3</ns:GroupType>
+                    <ns:Status>
+                        <ns:Code name="Initialized">1</ns:Code>
+                        <ns:Type name="Online">1</ns:Type>
+                    </ns:Status>
+                    <ns:Status>
+                        <ns:Code name="UnBlocked">3</ns:Code>
+                        <ns:Type name="Order">2</ns:Type>
+                    </ns:Status>
+                    <BrandChannel>
+                        <Brand>
+                            <ns:Code name="B and Q">CAFR</ns:Code>
+                        </Brand>
+                        <Channel>
+                            <ns:Code name="Web">WEB</ns:Code>
+                        </Channel>
+                    </BrandChannel>
+                    <PriceSegmentGroup name="">WH</PriceSegmentGroup>
+                    <PreferredStoreID/>
+                    <OrderReferenceRequiredIndicator>false</OrderReferenceRequiredIndicator>
+                    <SensitiveIndicator>false</SensitiveIndicator>
+                    <VIPIndicator>false</VIPIndicator>
+                    <DiscountCard>
+                        <ns:Type>BQMC</ns:Type>
+                        <ns:Number>6356669500000046</ns:Number>
+                    </DiscountCard>
+                    <Token>37a0d4a2595a3b1b6181ec7e2ae0cc11d61b0b79030e142df70fe43bd472d7dd</Token>
+                    <Transactional>true</Transactional>
+                </CustomerParty>
+                <ShipToParty>
+                    <ns:Title>Miss</ns:Title>
+                    <ns:GivenName>sdasd</ns:GivenName>
+                    <ns:FamilyName>sads</ns:FamilyName>
+                    <Contact>
+                        <ns:Name>Pamale1 Banerjee1</ns:Name>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:TelephoneCommunication>
+                        <ns:TelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:TelephoneCommunication>
+                        <ns:MobileTelephoneCommunication>
+                            <ns:UseCode>PRIMARY</ns:UseCode>
+                            <ns:FormattedNumber>0754511511</ns:FormattedNumber>
+                        </ns:MobileTelephoneCommunication>
+                        <ns:EMailAddressCommunication>
+                            <ns:EMailAddressID>pamale.banerjee@kingfisher.com</ns:EMailAddressID>
+                        </ns:EMailAddressCommunication>
+                        <Location>
+                            <ns:Address type="CUSTOMER">
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </ShipToParty>
+                <CollectionParty>
+                    <Contact>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </CollectionParty>
+                <BillToParty>
+                    <ns:Title>Mr</ns:Title>
+                    <ns:GivenName>Nischal</ns:GivenName>
+                    <ns:FamilyName>Pradhan</ns:FamilyName>
+                    <Contact>
+                        <Location>
+                            <ns:Address>
+                                <ns:BuildingNumber>10</ns:BuildingNumber>
+                                <ns:BuildingName/>
+                                <ns:StreetName>10</ns:StreetName>
+                                <ns:CitySubDivisionName/>
+                                <ns:CityName>Paris</ns:CityName>
+                                <ns:CountrySubDivisionCode/>
+                                <ns:CountryCode>FR</ns:CountryCode>
+                                <ns:PostalCode>75007</ns:PostalCode>
+                            </ns:Address>
+                        </Location>
+                    </Contact>
+                </BillToParty>
+                <ns:TotalAmount currencyID="EUR">50.0</ns:TotalAmount>
+                <PriceSegmentGroup>ALL</PriceSegmentGroup>
+                <InstallationManagedOrderIndicator>false</InstallationManagedOrderIndicator>
+                <ns:Charge>
+                    <ns:Type name="Delivery">DEL</ns:Type>
+                    <ns:BasisAmount currencyID="EUR">0.0</ns:BasisAmount>
+                </ns:Charge>
+                <Payment id="pg42510020">
+                    <ns:Amount currencyID="EUR">50.0</ns:Amount>
+                    <ns:Status>
+                        <ns:Code>PENDING_IN_STORE</ns:Code>
+                    </ns:Status>
+                </Payment>
+                <DeliveryAccess>
+                    <ns:Indicator>true</ns:Indicator>
+                    <ns:Description>Delivery_Vehicle_Parking_Question</ns:Description>
+                </DeliveryAccess>
+                <DeliveryAccess>
+                    <ns:Indicator>true</ns:Indicator>
+                    <ns:Description>Double_Decker_Bus_Question</ns:Description>
+                </DeliveryAccess>
+                <DeliveryAccess>
+                    <ns:Indicator>false</ns:Indicator>
+                    <ns:Description>Entrance_Stairs_Present_Question</ns:Description>
+                </DeliveryAccess>
+                <BrandChannel>
+                    <Brand>
+                        <ns:Code>CAFR</ns:Code>
+                    </Brand>
+                    <Channel>
+                        <ns:Code>WEB</ns:Code>
+                    </Channel>
+                </BrandChannel>
+                <NearestStoreID>1515</NearestStoreID>
+                <SettlementRequiredIndicator>false</SettlementRequiredIndicator>
+                <ns:UserAccount>
+                    <ns:AccountID>service</ns:AccountID>
+                    <ns:AccountType>Store</ns:AccountType>
+                </ns:UserAccount>
+            </SalesOrderHeader>
+            <SalesOrderLine>
+                <ns:LineNumber schemeName="ATG">1</ns:LineNumber>
+                <ns:Status>
+                    <ns:Code>0000</ns:Code>
+                    <ns:Type listName="TECHNICAL" name="ProcessFulfilmentSource">SUCCESS</ns:Type>
+                </ns:Status>
+                <ProductItem>
+                    <ns:ItemID>
+                        <ns:ID>100000903</ns:ID>
+                    </ns:ItemID>
+                    <ns:UPCID>5055149924620</ns:UPCID>
+                    <ns:UOMCode>EA</ns:UOMCode>
+                    <ShippingGroupCategoryCode>ZBFC</ShippingGroupCategoryCode>
+                </ProductItem>
+                <ns:Quantity unitCode="EA">8</ns:Quantity>
+                <ns:UnitPrice>
+                    <ns:Amount currencyID="EUR">5.0</ns:Amount>
+                    <ns:PerQuantity>1</ns:PerQuantity>
+                </ns:UnitPrice>
+                <ns:ExtendedAmount currencyID="EUR">50.00</ns:ExtendedAmount>
+                <ns:TotalAmount currencyID="EUR">50.00</ns:TotalAmount>
+                <ns:RequiredDeliveryDateTime>2016-09-28T17:54:32.903+01:00</ns:RequiredDeliveryDateTime>
+                <Tax>
+                    <ns:Type>V</ns:Type>
+                    <ns:Calculation>
+                        <ns:RateNumeric>20.0</ns:RateNumeric>
+                    </ns:Calculation>
+                    <ProductTaxClassificationCode>1</ProductTaxClassificationCode>
+                </Tax>
+                <ns:PromisedShipDateTime>2016-10-05T17:54:32.948+01:00</ns:PromisedShipDateTime>
+                <ns:PromisedDeliveryDateTime>2016-10-05T17:54:32.948+01:00</ns:PromisedDeliveryDateTime>
+                <FulfilmentSiteID>D039</FulfilmentSiteID>
+                <SalesOrderSchedule>
+                    <ns:LineNumber>1</ns:LineNumber>
+                    <DeliveryBlockIndicator>false</DeliveryBlockIndicator>
+                </SalesOrderSchedule>
+                <ns:CategoryCodes>
+                    <ns:Code listName="DEFAULT">ZBFC</ns:Code>
+                </ns:CategoryCodes>
+                <DeliveryGroupCode>001</DeliveryGroupCode>
+                <CreateByDateTime>2016-09-27T17:54:32.948+01:00</CreateByDateTime>
+                <DeliveryType>COLLECTION</DeliveryType>
+                <DeliveryPriorityCode>NORMAL</DeliveryPriorityCode>
+                <RouteStop>
+                    <ns:Type>ZFC021</ns:Type>
+                    <StopDetail>
+                        <ns:BillOfLadingReference>
+                            <ns:Facility>
+                                <ns:IDs>
+                                    <ns:ID>9307</ns:ID>
+                                </ns:IDs>
+                            </ns:Facility>
+                        </ns:BillOfLadingReference>
+                    </StopDetail>
+                </RouteStop>
+                <ns:ActionCodes>
+                    <ns:Code listName="Standard">NA</ns:Code>
+                </ns:ActionCodes>
+                <ns:Reason>NA</ns:Reason>
+                <!--<ShippingMethodSource>FC</ShippingMethodSource>-->
+                <FulfilmentSourceType>FC</FulfilmentSourceType>
+            </SalesOrderLine>
+        </SalesOrder>
+    </DataArea>
+</ChangeSalesOrder>
