@@ -1,0 +1,148 @@
+<SynchroniseCustomer languageCode="en" releaseID="1.0"
+    xmlns="http://www.kingfisher.com/oagis/9" xmlns:ns="http://www.openapplications.org/oagis/9">
+    <ns:ApplicationArea>
+        <ns:Sender>
+            <ns:LogicalID>ATG</ns:LogicalID>
+            <ns:ComponentID>127.0.0.1</ns:ComponentID>
+            <ns:ReferenceID schemeName="ORIGINATING_CHANNEL">WEB</ns:ReferenceID>
+        </ns:Sender>
+        <ns:CreationDateTime>2017-04-04T06:31:04.524+01:00</ns:CreationDateTime>
+        <ns:BODID>73866783864522</ns:BODID>
+    </ns:ApplicationArea>
+    <DataArea>
+        <Synchronise>
+            <ns:ActionCriteria>
+                <ns:ActionExpression actionCode="Modified" expressionLanguage="xpath">/SynchroniseCustomer/DataArea/Customer</ns:ActionExpression>
+            </ns:ActionCriteria>
+        </Synchronise>
+        <Customer>
+            <ns:ID schemeID="1" schemeName="ATG">15700001</ns:ID>
+            <ns:ID schemeID="2" schemeName="SAP">0060009651</ns:ID>
+            <Login>loyalty3@test.com</Login>
+            <ns:Title>M.</ns:Title>
+            <ns:GivenName>K</ns:GivenName>
+            <ns:FamilyName>M</ns:FamilyName>
+            <ns:GenderCode>Female</ns:GenderCode>
+            <ns:LanguageCode>en</ns:LanguageCode>
+            <Contact>
+                <ns:TelephoneCommunication>
+                    <ns:UseCode>DAY</ns:UseCode>
+                    <ns:FormattedNumber>023423432342</ns:FormattedNumber>
+                    <ns:Preference>
+                        <ns:Description type="Usage">DayToDay</ns:Description>
+                    </ns:Preference>
+                    <ns:Preference>
+                        <ns:Description type="Usage">OrderUpdates</ns:Description>
+                    </ns:Preference>
+                </ns:TelephoneCommunication>
+                <ns:TelephoneCommunication>
+                    <ns:UseCode>EVE</ns:UseCode>
+                    <ns:FormattedNumber>023423432342</ns:FormattedNumber>
+                    <ns:Preference>
+                        <ns:Description type="Usage">DayToDay</ns:Description>
+                    </ns:Preference>
+                    <ns:Preference>
+                        <ns:Description type="Usage">OrderUpdates</ns:Description>
+                    </ns:Preference>
+                </ns:TelephoneCommunication>
+                <ns:EMailAddressCommunication>
+                    <ns:EMailAddressID>loyalty3@test.com</ns:EMailAddressID>
+                    <ns:Preference>
+                        <ns:Description type="Usage">OrderUpdates</ns:Description>
+                    </ns:Preference>
+                    <ns:Preference>
+                        <ns:Description type="Usage">DayToDay</ns:Description>
+                    </ns:Preference>
+                </ns:EMailAddressCommunication>
+                <Location>
+                    <ns:Address>
+                        <ns:BuildingNumber/>
+                        <ns:BuildingName>12</ns:BuildingName>
+                        <ns:StreetName/>
+                        <ns:CitySubDivisionName/>
+                        <ns:CityName>Paris</ns:CityName>
+                        <ns:CountrySubDivisionCode/>
+                        <ns:CountryCode>FR</ns:CountryCode>
+                        <ns:PostalCode>50012</ns:PostalCode>
+                    </ns:Address>
+                    <ManualKeyingIndicator>true</ManualKeyingIndicator>
+                </Location>
+            </Contact>
+            <Organisation>
+                <ns:Name/>
+                <OwnerIndicator>false</OwnerIndicator>
+            </Organisation>
+            <SalesOrganisation>
+                <ns:ID>CA-FR</ns:ID>
+            </SalesOrganisation>
+            <ns:Type name="Retail">2</ns:Type>
+            <ns:GroupType name="Retail">3</ns:GroupType>
+            <ns:Status>
+                <ns:Code name="Initialized">1</ns:Code>
+                <ns:Type name="Online">1</ns:Type>
+            </ns:Status>
+            <ns:Status>
+                <ns:Code name="UnBlocked">3</ns:Code>
+                <ns:Type name="Order">2</ns:Type>
+            </ns:Status>
+            <BrandChannel>
+                <Brand>
+                    <ns:Code name="Castorama France">CAFR</ns:Code>
+                </Brand>
+                <Channel>
+                    <ns:Code name="Web">WEB</ns:Code>
+                </Channel>
+            </BrandChannel>
+            <PriceSegmentGroup name="Castorama France">01</PriceSegmentGroup>
+            <PreferredStoreID/>
+            <OrderReferenceRequiredIndicator>false</OrderReferenceRequiredIndicator>
+            <SensitiveIndicator>false</SensitiveIndicator>
+            <VIPIndicator>false</VIPIndicator>
+            <DiscountCard>
+                <ns:Type>LCCF</ns:Type>
+                <ns:Number>9136547896321478970</ns:Number>
+                <ns:NameOnAccount>K M</ns:NameOnAccount>
+                <EffectiveValidFromDate>2017-07-07T06:31:04.524+01:00</EffectiveValidFromDate>
+                <EffectiveValidToDate>2018-07-06T06:31:04.524+01:00</EffectiveValidToDate>
+            </DiscountCard>
+            <DiscountCard>
+                <ns:Type>LCCF</ns:Type>
+                <ns:Number>9136547896321478654</ns:Number>
+                <ns:NameOnAccount>S M</ns:NameOnAccount>
+                <EffectiveValidFromDate>2017-03-06T06:31:04.524+01:00</EffectiveValidFromDate>
+                <EffectiveValidToDate>2018-03-06T06:31:04.524+01:00</EffectiveValidToDate>
+            </DiscountCard>
+            <Token>e23cc0805f43e0f06a61ff330dfdba0f9caebd94c7ab1198f0bc01f0fcb0cb38</Token>
+            <Transactional>false</Transactional>
+            <!-- <OptinCastorama>        <Email>          <ns:Indicator>false</ns:Indicator>		  <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>        </Email>        <SMS>          <ns:Indicator>false</ns:Indicator>		   <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>        </SMS>        <Currier>          <ns:Indicator>true</ns:Indicator>		  <OptInDate>2017-10-20T14:04:44.667+01:00</OptInDate>        </Currier>      </OptinCastorama> -->
+            <OptinCastorama>
+                <Email>
+                    <ns:Indicator>false</ns:Indicator>
+                    <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>
+                </Email>
+                <SMS>
+                    <ns:Indicator>false</ns:Indicator>
+                    <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>
+                </SMS>
+                <Currier>
+                    <ns:Indicator>true</ns:Indicator>
+                    <OptInDate>2017-10-20T14:04:44.667+01:00</OptInDate>
+                </Currier>
+            </OptinCastorama>
+            <OptinPartner>
+                <Email>
+                    <ns:Indicator>false</ns:Indicator>
+                    <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>
+                </Email>
+                <SMS>
+                    <ns:Indicator>true</ns:Indicator>
+                    <OptInDate>2017-10-20T14:04:44.667+01:00</OptInDate>
+                </SMS>
+                <Currier>
+                    <ns:Indicator>false</ns:Indicator>
+                    <OptOutDate>2017-10-20T14:04:44.667+01:00</OptOutDate>
+                </Currier>
+            </OptinPartner>
+        </Customer>
+    </DataArea>
+</SynchroniseCustomer>
